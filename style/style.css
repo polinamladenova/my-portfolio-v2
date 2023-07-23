@@ -41,3 +41,7 @@
 .container {
   color: #3d2e7e;
 }
+
+.container h3 {
+  font-family: "Yeseva One", cursive;
+}
