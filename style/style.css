@@ -1,3 +1,7 @@
+.logo {
+  max-width: 150px;
+}
+
 .hero {
   background-color: #fff57f;
   padding: 150px;
@@ -30,6 +34,10 @@
   text-decoration: none;
 }
 
-.logo {
-  max-width: 150px;
+.btn-branding:hover {
+  background-color: #473597;
+}
+
+.container {
+  color: #3d2e7e;
 }
