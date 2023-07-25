@@ -2,8 +2,21 @@
   max-width: 150px;
 }
 
-.hero {
+.navbar {
   background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  color: #27112d;
+}
+
+.navbar ul li a {
+  color: #27112d;
+}
+
+.navbar ul li a:hover {
+  color: #89c5cc;
+}
+
+.hero {
   padding: 150px;
   color: #27112d;
 }
@@ -30,7 +43,7 @@
 
 .btn-primary {
   color: white;
-  background-color: #a8e5ba;
+  background-color: #89c5cc;
   border-radius: 58px;
   font-size: 18px;
   font-family: "Poppins", sans-serif;
@@ -38,11 +51,14 @@
   letter-spacing: 0.8px;
   padding: 16px 40px;
   text-decoration: none;
-  transition: all 700ms ease;
+  position: relative;
+  bottom: 0;
+  transition: bottom 0.5s ease;
 }
 
 .btn-primary:hover {
-  background-color: #77d692;
+  bottom: 10px;
+  background-color: #709fa5;
 }
 
 .girl-illustration {
@@ -55,7 +71,7 @@
 
 .container {
   color: #27112d;
-  margin-top: -50px;
+  margin-top: -20px;
 }
 
 .container h3 {
