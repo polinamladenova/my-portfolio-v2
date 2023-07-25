@@ -76,8 +76,30 @@
 
 .container h3 {
   font-family: "Yeseva One", cursive;
+  font-size: 50px;
+  scroll-margin-top: 70px;
 }
 
 .container p {
   font-family: "Poppins", sans-serif;
+}
+
+.socials {
+  font-size: 32px;
+  text-align: center;
+  padding: 18px 0px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: #89c5cc;
+  margin: 0 10px;
+  position: relative;
+  bottom: 0;
+  transition: bottom 0.5s ease;
+}
+
+.socials a:hover {
+  color: #709fa5;
+  bottom: 10px;
 }
