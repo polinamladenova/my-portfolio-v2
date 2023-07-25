@@ -69,6 +69,13 @@
   margin-left: -85px;
 }
 
+.plant-illustration {
+  max-width: 220px;
+  margin-top: -200px;
+  margin-bottom: -150px;
+  margin-left: 1050px;
+}
+
 .container {
   color: #27112d;
   margin-top: -20px;
