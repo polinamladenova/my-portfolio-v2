@@ -30,7 +30,7 @@
 
 .btn-primary {
   color: white;
-  background-color: #89c5cc;
+  background-color: #a8e5ba;
   border-radius: 58px;
   font-size: 18px;
   font-family: "Poppins", sans-serif;
@@ -42,17 +42,20 @@
 }
 
 .btn-primary:hover {
-  background-color: #709fa5;
+  background-color: #77d692;
 }
 
 .girl-illustration {
-  max-width: 230px;
-  margin-top: 50px;
-  margin-bottom: -50px;
+  max-width: 220px;
+  margin-top: -250px;
+  margin-bottom: -200px;
+  margin-right: 1000px;
+  margin-left: -85px;
 }
 
 .container {
   color: #27112d;
+  margin-top: -50px;
 }
 
 .container h3 {
