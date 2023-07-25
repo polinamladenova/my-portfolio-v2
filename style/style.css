@@ -24,6 +24,10 @@
   font-size: 32px;
 }
 
+.strikethrough-text {
+  text-decoration: line-through;
+}
+
 .btn-primary {
   color: white;
   background-color: #89c5cc;
