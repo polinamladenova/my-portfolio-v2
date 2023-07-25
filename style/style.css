@@ -10,13 +10,13 @@ body {
   color: var(--primary-color);
 }
 
-.logo {
-  max-width: 150px;
-}
-
 .navbar {
   background-color: #ffffff;
   color: var(--primary-color);
+}
+
+.logo {
+  max-width: 150px;
 }
 
 .navbar ul li a {
@@ -28,6 +28,7 @@ body {
 }
 
 .hero {
+  text-align: center;
   padding: 150px;
 }
 
@@ -37,6 +38,7 @@ body {
 }
 
 .hero h2 {
+  margin-bottom: 75px;
   font-size: 20px;
   opacity: 0.7;
 }
@@ -66,7 +68,7 @@ body {
 
 .girl-illustration {
   max-width: 220px;
-  margin-top: -250px;
+  margin-top: -280px;
   margin-bottom: -200px;
   margin-right: 1000px;
   margin-left: -85px;
@@ -111,4 +113,58 @@ body {
 .socials a:hover {
   color: var(--tertiary-color);
   bottom: 10px;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 150px 20px;
+    margin-bottom: -80px !important;
+  }
+
+  .hero h1 {
+    text-align: center !important;
+    font-size: 50px;
+  }
+
+  .hero h2 {
+    margin-bottom: 50px;
+  }
+
+  .hero p {
+    font-size: 24px;
+  }
+
+  .btn-primary {
+    padding: 8px 20px;
+  }
+
+  .girl-illustration {
+    display: block;
+    margin: 40px auto;
+  }
+
+  .container img,
+  .plant-illustration {
+    display: none;
+  }
+
+  .container {
+    margin-top: 60px;
+    margin-bottom: 0;
+
+    padding: 0px 30px;
+  }
+
+  .container h3 {
+    font-size: 27px;
+  }
+
+  .container p {
+    font-size: 18px;
+    margin-bottom: -10px;
+  }
+
+  .socials {
+    margin-top: -20px;
+  }
 }
