@@ -3,9 +3,9 @@
 }
 
 .hero {
-  background-color: #fff57f;
+  background-color: #ffffff;
   padding: 150px;
-  color: #3d2e7e;
+  color: #27112d;
 }
 
 .hero h1 {
@@ -24,24 +24,31 @@
   font-size: 32px;
 }
 
-.btn-branding {
+.btn-primary {
   color: white;
-  background-color: #3d2e7e;
-  border-radius: 4px;
+  background-color: #89c5cc;
+  border-radius: 58px;
   font-size: 18px;
+  font-family: "Poppins", sans-serif;
   line-height: 27px;
-  padding: 15px 30px;
+  letter-spacing: 0.8px;
+  padding: 16px 40px;
   text-decoration: none;
+  transition: all 700ms ease;
 }
 
-.btn-branding:hover {
-  background-color: #34276c;
+.btn-primary:hover {
+  background-color: #709fa5;
 }
 
 .container {
-  color: #3d2e7e;
+  color: #27112d;
 }
 
 .container h3 {
   font-family: "Yeseva One", cursive;
+}
+
+.container p {
+  font-family: "Poppins", sans-serif;
 }
