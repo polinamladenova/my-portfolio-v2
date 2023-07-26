@@ -95,6 +95,10 @@ body {
   line-height: 28px;
 }
 
+.strikethrough {
+  text-decoration: line-through;
+}
+
 .socials {
   font-size: 32px;
   text-align: center;
