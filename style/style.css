@@ -123,13 +123,13 @@ body {
   }
 
   .hero h1 {
-    text-align: center !important;
     font-size: 35px;
   }
 
   .hero h2 {
     margin-top: -10px;
     margin-bottom: 40px;
+    line-height: 28px;
   }
 
   .hero p {
