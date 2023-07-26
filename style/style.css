@@ -127,13 +127,14 @@ body {
   }
 
   .hero h2 {
+    font-size: 18px;
     margin-top: -10px;
     margin-bottom: 40px;
     line-height: 28px;
   }
 
   .hero p {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 5px;
   }
 
