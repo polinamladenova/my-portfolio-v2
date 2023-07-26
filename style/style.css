@@ -118,7 +118,7 @@ body {
 @media (max-width: 900px) {
   .hero {
     padding: 50px 20px;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: -80px !important;
   }
 
@@ -142,7 +142,7 @@ body {
   .girl-illustration {
     display: block;
     margin: 40px auto;
-    max-width: 210px;
+    max-width: 180px;
   }
 
   .container img,
