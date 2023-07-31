@@ -185,6 +185,20 @@ h1 {
   margin-top: -150px;
 }
 
+.credits {
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.credits a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.credits a:hover {
+  color: var(--tertiary-color);
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 50px 20px;
