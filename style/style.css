@@ -152,31 +152,6 @@ h1 {
   border-radius: 50%;
 }
 
-.overlayone {
-  width: 100%;
-  height: 100%;
-  display: inline-block;
-  position: relative;
-}
-
-.overlayin {
-  border-radius: 50%;
-  background-color: var(--secondary-color);
-  height: 397px;
-  width: 397px;
-  opacity: 0;
-  top: 0;
-  left: 0;
-  position: absolute;
-  padding: 70px;
-  transition: opacity 0.5s;
-}
-
-.overlayin:hover {
-  opacity: 0.3;
-  transition: opacity 0.5s;
-}
-
 .second-plant-illustration {
   max-width: 300px;
   margin-left: 1000px;
@@ -244,9 +219,7 @@ h1 {
   }
 
   .home-content img,
-  .plant-illustration,
-  .overlayinn,
-  .overlayinn:hover {
+  .plant-illustration {
     display: none;
   }
 
@@ -267,5 +240,66 @@ h1 {
 
   .socials {
     margin-top: -20px;
+  }
+
+  .languages {
+    padding: 30px 0px;
+  }
+
+  .code-and-demo-links a {
+    color: var(--secondary-color);
+  }
+
+  .about-content {
+    margin-top: 60px;
+    margin-bottom: 0;
+    padding: 30px;
+  }
+
+  .about-content h1,
+  .about-opener {
+    text-align: center;
+  }
+
+  .about-content h1 {
+    font-size: 50px;
+    margin-top: 10px;
+  }
+
+  .about-content img {
+    max-width: 170px;
+    display: block;
+    margin: 30px auto;
+  }
+
+  .second-plant-illustration {
+    display: none;
+  }
+
+  .work-inquiry-content {
+    margin-top: 70px;
+    margin-bottom: 0;
+    padding: 30px;
+  }
+
+  .work-inquiry-content h1 {
+    font-size: 37px;
+    margin-bottom: 20px;
+  }
+
+  .work-inquiry-content p {
+    text-align: left;
+  }
+
+  .work-inquiry-content ul {
+    text-align: left;
+    padding: 30px 0;
+    margin-top: -50px;
+  }
+
+  .sitting-girl-illustration {
+    display: block;
+    margin: 35px auto;
+    max-width: 230px;
   }
 }
