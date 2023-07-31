@@ -79,7 +79,7 @@ h1 {
 }
 
 .plant-illustration {
-  max-width: 220px;
+  max-width: 250px;
   margin-top: -200px;
   margin-bottom: -150px;
   margin-left: 1050px;
@@ -134,13 +134,17 @@ h1 {
   padding: 100px 50px 50px 120px;
 }
 
+.about-content h1 {
+  font-size: 64px;
+}
+
 .about-content h2 {
   font-size: 20px;
   opacity: 0.7;
 }
 
 .about-opener {
-  font-size: 32px;
+  font-size: 24px;
   margin-bottom: 0;
 }
 
@@ -173,8 +177,18 @@ h1 {
   transition: opacity 0.5s;
 }
 
+.second-plant-illustration {
+  max-width: 300px;
+  margin-left: 1000px;
+  margin-top: -200px;
+}
+
 .work-inquiry-content {
   padding: 120px;
+}
+
+.work-inquiry-content h1 {
+  font-size: 64px;
 }
 
 .work-inquiry-content ul li {
@@ -191,7 +205,9 @@ h1 {
 }
 
 .sitting-girl-illustration {
-  max-width: 250px;
+  max-width: 230px;
+  margin-right: 400px;
+  margin-top: -150px;
 }
 
 @media (max-width: 900px) {
