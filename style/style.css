@@ -298,14 +298,18 @@ h1 {
   }
 
   .work-inquiry-content ul {
-    text-align: left;
+    text-align: center;
     padding: 30px 0;
     margin-top: -50px;
   }
 
+  .work-inquiry-content ul a {
+    color: var(--secondary-color);
+  }
+
   .sitting-girl-illustration {
     display: block;
-    margin: 35px auto;
+    margin: 20px auto;
     max-width: 230px;
   }
 }
